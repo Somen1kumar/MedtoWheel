@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Mainpage">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <android.support.constraint.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="150dp"
+              android:layout_height="150dp"
+              android:layout_marginBottom="32dp"
+              android:layout_marginTop="120dp"
+              android:background="@drawable/logo2"
+              android:foregroundGravity="center"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.536"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintVertical_bias="1.0" />
+
+          <Button
+              android:id="@+id/high"
+              android:layout_width="220dp"
+              android:layout_height="40dp"
+              android:layout_marginTop="77dp"
+              android:layout_marginBottom="297dp"
+              android:background="@drawable/bookshoot1"
+              android:text="HIGH Risk!!"
+              android:textColor="@color/white"
+              android:textSize="15dp"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.497"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/imageView2"
+              app:layout_constraintVertical_bias="0.0" />
+
+          <Button
+              android:id="@+id/med"
+              android:layout_width="220dp"
+              android:layout_height="40dp"
+              android:background="@drawable/bookshoot1"
+              android:text="Medium Risk!!"
+              android:textColor="@color/white"
+              android:textSize="15dp"
+              app:layout_constraintBottom_toBottomOf="@id/low"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.502"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="@id/high"
+              app:layout_constraintVertical_bias="0.686" />
+
+
+          <Button
+              android:id="@+id/low"
+              android:layout_width="220dp"
+              android:layout_height="40dp"
+              android:layout_marginTop="36dp"
+              android:layout_marginBottom="139dp"
+              android:background="@drawable/bookshoot1"
+              android:text="Low Risk!!"
+              android:textColor="@color/white"
+              android:textSize="15dp"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/med" />
+
+
+
+      </android.support.constraint.ConstraintLayout>
+
+
+  </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

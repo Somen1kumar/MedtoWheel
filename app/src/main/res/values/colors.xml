@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorred">#fcfcf5</color>
+    <color name="colorback">#D9D9D9</color>
+    <color name="colorblack">#fcfcf5</color>
+    <color name="colorblue">#0c90ef</color>
+    <color name="orange">#ae0d6b</color>
+    <color name="locationorange">#EC6B27</color>
+    <color name="blue">#45b4ff</color>
+    <color name="timer">#b210d2</color>
+    <color name="edit">#4baee7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#535151</color>
+    <color name="lightdark">#E2DCDC</color>
+    <color name="black">#000000</color>
+    <color name="lightgrey">#919090</color>
+    <color name="basecolor">#e65100</color>
+    <color name="maxlightgrey">#ECECEC</color>
+    <color name="aboutus">#2B65EC</color>
+    <color name="ratecard">#61026F</color>
+    <color name="share">#3BB9FF</color>
+    <color name="centre">#FF0000</color>
+    <color name="uniquecolor">#E6FFF6</color>
+    <color name="ratecard1">#662d91</color>
+    <color name="bookshoot1">#1abc9c</color>
+    <color name="ss">#E3E6E6</color>
+
+
+</resources>

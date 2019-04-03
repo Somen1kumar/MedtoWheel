@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Med-to-Wheel</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="fire">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>

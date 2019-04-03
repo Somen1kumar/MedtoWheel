@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "590954877513",
+    "firebase_url": "https://medtowheel.firebaseio.com",
+    "project_id": "medtowheel",
+    "storage_bucket": "medtowheel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590954877513:android:b652fb85cfbdc655",
+        "android_client_info": {
+          "package_name": "com.example.med_to_wheel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590954877513-457e0dmadg7lgqce9nipjaqlvrke47i5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.med_to_wheel",
+            "certificate_hash": "e4a79d679a7299168f0dcdd9670e9b2e0573f1cb"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9jhGFWrnOeQm7cFQhTUZduMDqBJL8rPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590954877513-0p5dmdt5sb38fao054qce0q7savghldr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
